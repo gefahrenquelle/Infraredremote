@@ -39,10 +39,10 @@ GPIOA->CRH = temp;
 /******************************************************************************/
 /*                                MAIN function                               */
 /******************************************************************************/
-int main (void) {
+void nec_get (bitword) {
 
-char zahl;
-int column,row,bit;
+char zahl,bitword[31];
+int column,row,bit,time;
 
 nec_init();
 lcd_init();
@@ -53,16 +53,18 @@ zahl = '0';
 column = 0;
 row = 0;
 bit = 0;
+time = 0;
 
 
 	 do {			 //*Warte auf fallend Flanke
 	 } while (NEC_in ==1);
 	 do {			 //*Warte auf steigend Flanke
 	 } while (NEC_in ==0);
+	 do {	  		
+	}while (NEC_in == 1);			 //*Warte auf fallend Flanke
 
 	do { 
-	  do {	  		
-		}while (NEC_in == 1);			 //*Warte auf fallend Flanke
+
 //	  zahl='1';
 //	  lcd_set_cursor(1,column);
 //	  column++;
@@ -70,8 +72,12 @@ bit = 0;
 
 	  do {			 //*Warte auf steigend Flanke
 		} while (NEC_in ==0);
-	  wait_ms (1);
-	  if (NEC_in == 0)
+		time = 0;
+	  do {
+	  	time++;  		
+		}while (NEC_in == 1);			 //*Warte auf fallend Flanke
+
+	  if (time >= 640)
 	  {
 	  	zahl = '1';
 	  }
@@ -79,7 +85,7 @@ bit = 0;
 	  {
 	  	zahl = '0';
 	  }
-	  if (column == 15)
+	  if (column == 16)
 	  {
 	  	row++;
 		column = 0;
@@ -87,7 +93,7 @@ bit = 0;
 	  lcd_set_cursor(row,column);
 	  column++;
 	  lcd_put_char (zahl);
-	  zahl = '9';
+	  bitword[bit]= zahl;
 	  bit++;
 	  } while (bit <= 31);
 }

@@ -8,34 +8,14 @@ Project File Date:  02/01/2017
 
 <h2>Output:</h2>
 Build target 'Target 1'
-assembling STM32F10x.s...
 compiling infraredremote.c...
 linking...
-Program Size: Code=2888 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2888 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2852 RO-data=380 RW-data=0 ZI-data=608  
+Program Size: Code=2872 RO-data=380 RW-data=0 ZI-data=608  
 "infraredremote.axf" - 0 Error(s), 0 Warning(s).
 Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
 Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-infraredremote.c(44): warning:  #177-D: variable "zahl" was declared but never referenced
-infraredremote.c:   char zahl;
-infraredremote.c:        ^
-infraredremote.c: infraredremote.c: 1 warning, 0 errors
-linking...
-Program Size: Code=388 RO-data=252 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 1 Warning(s).
+Cannot Write to RAM for Flash Algorithms !
+Programming Failed!
 Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
 Erase Done.
 Programming Done.
@@ -51,157 +31,8 @@ Verify OK.
 Build target 'Target 1'
 assembling STM32F10x.s...
 compiling infraredremote.c...
-infraredremote.c(44): warning:  #177-D: variable "zahl" was declared but never referenced
-infraredremote.c:   char zahl;
-infraredremote.c:        ^
-infraredremote.c: infraredremote.c: 1 warning, 0 errors
 linking...
-Program Size: Code=384 RO-data=252 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 1 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2836 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2836 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2836 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2832 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2824 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2828 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2828 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2832 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-assembling STM32F10x.s...
-compiling infraredremote.c...
-infraredremote.c(82): warning:  #111-D: statement is unreachable
-infraredremote.c:         lcd_set_cursor(1,column);
-infraredremote.c:         ^
-infraredremote.c: infraredremote.c: 1 warning, 0 errors
-linking...
-Program Size: Code=2828 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 1 Warning(s).
-compiling infraredremote.c...
-infraredremote.c - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-linking...
-Program Size: Code=2844 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2828 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2848 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2848 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2848 RO-data=380 RW-data=0 ZI-data=608  
-"infraredremote.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling infraredremote.c...
-linking...
-Program Size: Code=2860 RO-data=380 RW-data=0 ZI-data=608  
+Program Size: Code=2872 RO-data=380 RW-data=0 ZI-data=608  
 "infraredremote.axf" - 0 Error(s), 0 Warning(s).
 Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
 Erase Done.
@@ -225,3 +56,93 @@ Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Pro
 Erase Done.
 Programming Done.
 Verify OK.
+Build target 'Target 1'
+compiling infraredremote.c...
+infraredremote.c(45): warning:  #550-D: variable "time" was set but never used
+infraredremote.c:   int column,row,bit,time;
+infraredremote.c:                      ^
+infraredremote.c: infraredremote.c: 1 warning, 0 errors
+linking...
+Program Size: Code=2884 RO-data=380 RW-data=0 ZI-data=608  
+"infraredremote.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling infraredremote.c...
+linking...
+Program Size: Code=2888 RO-data=380 RW-data=0 ZI-data=608  
+"infraredremote.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling infraredremote.c...
+linking...
+Program Size: Code=2888 RO-data=380 RW-data=0 ZI-data=608  
+"infraredremote.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling infraredremote.c...
+linking...
+Program Size: Code=2888 RO-data=380 RW-data=0 ZI-data=608  
+"infraredremote.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling infraredremote.c...
+linking...
+Program Size: Code=2888 RO-data=380 RW-data=0 ZI-data=608  
+"infraredremote.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling infraredremote.c...
+linking...
+Program Size: Code=2888 RO-data=380 RW-data=0 ZI-data=608  
+"infraredremote.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=2888 RO-data=380 RW-data=0 ZI-data=608  
+"infraredremote.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling infraredremote.c...
+linking...
+Program Size: Code=2888 RO-data=380 RW-data=0 ZI-data=608  
+"infraredremote.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling infraredremote.c...
+infraredremote.c(44): warning:  #550-D: variable "bitword" was set but never used
+infraredremote.c:   char zahl,bitword[31];
+infraredremote.c:             ^
+infraredremote.c: infraredremote.c: 1 warning, 0 errors
+linking...
+Program Size: Code=2896 RO-data=380 RW-data=0 ZI-data=608  
+"infraredremote.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
+Cannot Write to RAM for Flash Algorithms !
+Erase Failed!
+Build target 'Target 1'
+linking...
+Program Size: Code=2896 RO-data=380 RW-data=0 ZI-data=608  
+"infraredremote.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Benjamin Redl\\OneDrive\\Schule\\4AHEL\\DIC_REISINGER\\Keil_Programme\\Infraredremote\\infraredremote.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+creating Library...
+"infraredremote.lib" - 0 Error(s), 0 Warning(s).

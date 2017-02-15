@@ -11,7 +11,7 @@
 ### ADS-LD Output File: 'infraredremote.axf'
 ### ADS-LD Command File: 'infraredremote.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'infraredremote.lnp', Handle=0x00000784
+### Creating CmdFile 'infraredremote.lnp', Handle=0x0000081C
 ### Writing '.lnp' file
 ### ADS-LD Command file 'infraredremote.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
